@@ -856,8 +856,12 @@ img {
     padding: var(--gnb-height) 16px 0;
   }
 
+  .site-header .logo a {
+    font-size: 0.95rem;
+  }
+
   .hero-content h1 {
-    font-size: 1.15rem;
+    font-size: 1.25rem;
     white-space: nowrap;
   }
 
