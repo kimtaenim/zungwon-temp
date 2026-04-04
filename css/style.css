@@ -282,7 +282,7 @@ img {
   position: relative;
   z-index: 1;
   max-width: 720px;
-  padding: 0 20px;
+  padding: var(--gnb-height) 20px 0;
 }
 
 .hero-content h1 {
@@ -852,12 +852,22 @@ img {
     display: flex;
   }
 
+  .hero-content {
+    padding: var(--gnb-height) 16px 0;
+  }
+
   .hero-content h1 {
-    font-size: 1.75rem;
+    font-size: 1.4rem;
   }
 
   .hero-content p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+
+  .btn {
+    padding: 12px 24px;
+    font-size: 0.85rem;
   }
 
   .section {
