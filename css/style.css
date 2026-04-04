@@ -857,7 +857,8 @@ img {
   }
 
   .hero-content h1 {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
+    white-space: nowrap;
   }
 
   .hero-content p {
