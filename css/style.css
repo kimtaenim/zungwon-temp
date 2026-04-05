@@ -140,7 +140,7 @@ img {
   opacity: 0;
   visibility: hidden;
   transform: translateY(8px);
-  transition: opacity 0.2s, transform 0.2s, visibility 0.2s;
+  transition: opacity 0.4s, transform 0.4s, visibility 0.4s;
 }
 
 .gnb > li:hover .dropdown {
@@ -193,13 +193,17 @@ img {
   height: 100%;
   background: var(--color-primary);
   z-index: 2000;
-  display: none;
+  display: flex;
   flex-direction: column;
   overflow-y: auto;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
 }
 
 .mobile-menu-overlay.open {
-  display: flex;
+  opacity: 1;
+  visibility: visible;
 }
 
 .mobile-menu-header {
@@ -730,8 +734,9 @@ img {
   transform: translateY(-4px);
 }
 
-.sub-card__icon {
-  font-size: 2rem;
+.sub-card__icon,
+.sub-card-icon {
+  font-size: 2.5rem;
   color: var(--color-blue);
   margin-bottom: 16px;
 }
