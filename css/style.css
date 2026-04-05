@@ -1,7 +1,8 @@
 /* ===== CSS Variables ===== */
 :root {
-  --color-primary: #0A1F44;
+  --color-primary: #003153;
   --color-blue: #1A56DB;
+  --color-accent: #7AB648;
   --color-white: #FFFFFF;
   --color-gray-light: #F5F7FA;
   --color-gray-dark: #374151;
@@ -421,7 +422,7 @@ img {
 
 .biz-card__icon {
   font-size: 2.5rem;
-  color: var(--color-blue);
+  color: var(--color-accent);
   margin-bottom: 20px;
 }
 
@@ -470,8 +471,8 @@ img {
 .news-card__source {
   font-size: 0.8rem;
   font-weight: 500;
-  color: var(--color-blue);
-  background: rgba(26, 86, 219, 0.08);
+  color: var(--color-accent);
+  background: rgba(122, 182, 72, 0.1);
   padding: 3px 10px;
   border-radius: 4px;
 }
@@ -503,7 +504,7 @@ img {
   gap: 6px;
   font-size: 0.85rem;
   font-weight: 500;
-  color: var(--color-blue);
+  color: var(--color-accent);
   transition: opacity 0.15s;
 }
 
@@ -522,14 +523,14 @@ img {
   padding: 12px 28px;
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--color-blue);
-  border: 1.5px solid var(--color-blue);
+  color: var(--color-accent);
+  border: 1.5px solid var(--color-accent);
   border-radius: 6px;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .btn-more:hover {
-  background-color: var(--color-blue);
+  background-color: var(--color-accent);
   color: var(--color-white);
 }
 
@@ -737,7 +738,7 @@ img {
 .sub-card__icon,
 .sub-card-icon {
   font-size: 2.5rem;
-  color: var(--color-blue);
+  color: var(--color-accent);
   margin-bottom: 16px;
 }
 
